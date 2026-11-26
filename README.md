@@ -27,7 +27,7 @@ system states this instead of generating unsupported content.
 
 ```bash
 python -m venv .venv
-.venv\Scripts\activate          # Windows (Mac/Linux: source .venv/bin/activate)
+.venv\Scripts\activate          #different on Mac/Linux: source .venv/bin/activate)
 pip install pypdf sentence-transformers numpy ollama
 ollama pull llama3.2
 
